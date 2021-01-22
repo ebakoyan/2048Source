@@ -1,0 +1,28 @@
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 10px;
+
+    /* border: 1px solid black; */
+    /* margin: 10px auto; */
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 5px;
+    justify-content: center;
+    transition: 1s;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.control i {
+    margin: 4px;
+    color: #FF4136
+}
